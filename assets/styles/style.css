@@ -1,9 +1,21 @@
-body {
-    background: url(https://i.imgur.com/S9Sorcj.jpg);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;700&display=swap");
+
+body.light {
+    background: url(https://i.imgur.com/qVslvvM.jpg);
     background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    min-width: 100vw;
+    background-position: center top;
+    background-size: 100% 100%;
     min-height: 100vh;
-    background-attachment: fixed;
-} 
+    min-width: 100vw;
+    font-family: "Inter", sans-serif;
+}
+
+body.dark {
+    background: url(https://i.imgur.com/yCBEt6a.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 100%;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Inter", sans-serif;
+}
