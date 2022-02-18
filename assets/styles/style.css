@@ -1,0 +1,9 @@
+body {
+    background: url(https://i.imgur.com/S9Sorcj.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-attachment: fixed;
+} 
